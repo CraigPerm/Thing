@@ -18,10 +18,6 @@
             <version>1.0-m5.1</version>
             <configuration>
               <flowInitContext>
-                 <pullDevelop>true</pullDevelop>
-                 <pullMaster>true</pullMaster>
-                 <pushReleases>true</pushReleases>
-                 <keepBranch>true</keepBranch>
                  <masterBranchName>master</masterBranchName>
                  <developBranchName>develop</developBranchName>
                  <featureBranchPrefix>feature-</featureBranchPrefix>
@@ -29,6 +25,10 @@
                  <hotfixBranchPrefix>hotfix-</hotfixBranchPrefix>
                  <versionTagPrefix>R-</versionTagPrefix>
                </flowInitContext>
+               <squash>true</squash>
+               <pullMaster>true</pullMaster>
+               <pushReleases>true</pushReleases>
+               <keepBranch>true</keepBranch>
                <username>${git.user}</username>
                <password>${git.password}</password>
             </configuration>
