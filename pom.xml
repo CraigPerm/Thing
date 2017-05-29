@@ -48,7 +48,7 @@
                     <squash>true</squash>
                     <pullMaster>true</pullMaster>
                     <pushReleases>true</pushReleases>
-                    <keepBranch>true</keepBranch>
+                    <keepBranch>false</keepBranch>
                     <username>${git.user}</username>
                     <password>${git.password}</password>
                 </configuration>
