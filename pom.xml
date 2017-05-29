@@ -40,7 +40,7 @@
       <uniqueVersion>false</uniqueVersion>
       <id>repo1</id>
       <name>My Repository</name>
-      <url>scp://wk/workspace/temp/here</url>
+      <url>file:///home/craig/workspace/temp/here</url>
       <layout>default</layout>
     </repository>
   </distributionManagement>
