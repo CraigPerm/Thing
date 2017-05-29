@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>craig.test</groupId>
     <artifactId>thing</artifactId>
-    <version>0.0.3</version>
+    <version>0.0.8</version>
     <name>Thing</name>
     <scm>
         <url>https://github.com/CraigPerm/Thing.git</url>
@@ -25,10 +25,23 @@
                  <hotfixBranchPrefix>hotfix-</hotfixBranchPrefix>
                  <versionTagPrefix>R-</versionTagPrefix>
                </flowInitContext>
+               <squash>true</squash>
+               <pullMaster>true</pullMaster>
+               <pushReleases>true</pushReleases>
+               <keepBranch>true</keepBranch>
                <username>${git.user}</username>
                <password>${git.password}</password>
             </configuration>
         </plugin>
         </plugins>
     </build>
+  <distributionManagement>
+    <repository>
+      <uniqueVersion>false</uniqueVersion>
+      <id>repo1</id>
+      <name>My Repository</name>
+      <url>file:///home/craig/workspace/temp/here</url>
+      <layout>default</layout>
+    </repository>
+  </distributionManagement>
 </project>
