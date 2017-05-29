@@ -36,9 +36,12 @@
         </plugins>
     </build>
   <distributionManagement>
-    <site>
-      <id>local</id>
+    <repository>
+      <uniqueVersion>false</uniqueVersion>
+      <id>repo1</id>
+      <name>My Repository</name>
       <url>scp://wk/workspace/temp/here</url>
-    </site>
+      <layout>default</layout>
+    </repository>
   </distributionManagement>
 </project>
