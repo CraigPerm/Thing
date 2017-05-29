@@ -2,7 +2,11 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>craig.test</groupId>
     <artifactId>thing</artifactId>
+<<<<<<< HEAD
     <version>0.0.12</version>
+=======
+    <version>0.0.14</version>
+>>>>>>> refs/heads/release-0.0.14
     <name>Thing</name>
 
     <scm>
@@ -47,7 +51,11 @@
                     <squash>true</squash>
                     <pullMaster>true</pullMaster>
                     <pushReleases>true</pushReleases>
+<<<<<<< HEAD
                     <keepBranch>true</keepBranch>
+=======
+                    <keepBranch>false</keepBranch>
+>>>>>>> refs/heads/release-0.0.14
                     <username>${git.user}</username>
                     <password>${git.password}</password>
                 </configuration>
