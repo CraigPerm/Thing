@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>craig.test</groupId>
     <artifactId>thing</artifactId>
-    <version>0.0.27-SNAPSHOT</version>
+    <version>0.0.26</version>
     <name>Thing</name>
 
     <scm>
