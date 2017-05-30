@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>craig.test</groupId>
     <artifactId>thing</artifactId>
-    <version>0.0.26-SNAPSHOT</version>
+    <version>0.0.25-SNAPSHOT</version>
     <name>Thing</name>
 
     <scm>
@@ -44,8 +44,6 @@
                         <hotfixBranchPrefix>hotfix-</hotfixBranchPrefix>
                         <versionTagPrefix>R-</versionTagPrefix>
                     </flowInitContext>
-                    <squash>true</squash>
-                    <pullMaster>true</pullMaster>
                     <pushReleases>true</pushReleases>
                     <keepBranch>false</keepBranch>
                     <username>${git.user}</username>
