@@ -44,8 +44,6 @@
                         <hotfixBranchPrefix>hotfix-</hotfixBranchPrefix>
                         <versionTagPrefix>R-</versionTagPrefix>
                     </flowInitContext>
-                    <squash>true</squash>
-                    <pullMaster>true</pullMaster>
                     <pushReleases>true</pushReleases>
                     <keepBranch>false</keepBranch>
                     <username>${git.user}</username>
