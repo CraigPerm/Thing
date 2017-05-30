@@ -45,6 +45,7 @@
                         <versionTagPrefix>R-</versionTagPrefix>
                     </flowInitContext>
                     <pushReleases>true</pushReleases>
+                    <pushHotfixes>true</pushHotfixes>
                     <keepBranch>false</keepBranch>
                     <username>${git.user}</username>
                     <password>${git.password}</password>
